@@ -1,9 +1,10 @@
 .menu{
-    background-color: yellowgreen;
+background-color: yellowgreen;
 color:white;
 display: flex;
 flex-direction: column;
 padding:20px;
+padding-right: 27px;
 flex-shrink: 0;
 width:100px;
 border-color: white;
@@ -93,6 +94,7 @@ border-top-width: 0px;
     padding: 7px;
     font-weight: bold;
     width: fit-content;
+    text-decoration: none;
 
 }
 .buttonhome{
@@ -104,6 +106,7 @@ border-top-width: 0px;
     padding: 7px;
     font-weight: bold;
     width: fit-content;
+    text-decoration: none;
 }
 .submit{
     background-color:rgb(64, 165, 242);
@@ -111,9 +114,23 @@ border-top-width: 0px;
     border-color: white;
     border-style: solid;
     color: white;
-    padding: 7px;
+    padding: 10px;
     font-weight: bold;
     width: fit-content;
     margin: 5px;
     display: inline-block;
+    text-decoration: none;
+}
+.submit1{
+    background-color:yellowgreen;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
 }
